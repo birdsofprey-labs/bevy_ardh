@@ -104,7 +104,7 @@ impl From<GridWithSkirts> for Mesh {
                 positions.push([(-0.5 + tx) * psize * oscalex, y, (-0.5 + tz) * psize * oscalez]);
                 normals.push(up);
                 //let mf = 1.0 + 1.0 / 130.0;// + dt / plane.size;
-                println!("{} x {}  {:?} ", x, z, [(ux-dr)*ds, (uz-dr)*ds]);
+                //println!("{} x {}  {:?} ", x, z, [(ux-dr)*ds, (uz-dr)*ds]);
                 uvs.push([(ux-dr)*ds, (uz-dr)*ds]);
             }
         }

@@ -1,7 +1,5 @@
-use std::collections::VecDeque;
-
-use bevy::{prelude::*, utils::HashSet};
-
+use std::collections::{HashSet, VecDeque};
+use bevy::{prelude::*};
 use crate::quadtree::{ZNodeIndex, QuadTree};
 
 #[derive(Component, Debug, Hash, PartialEq, Eq, Clone)]
